@@ -1,0 +1,119 @@
+plugins {
+    id 'com.android.application'
+}
+
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    lintOptions {//设置编译的lint开关，程序在buid的时候，会执行lint检查，有任何的错误或者警告提示，都会终止构建
+        abortOnError false
+    }
+
+    sourceSets{
+        main {
+            jniLibs.srcDirs = ['jni'];
+        }
+    }
+    defaultConfig {
+        applicationId "com.maple.rubbishseparator"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+
+    }
+
+
+
+
+    signingConfigs {
+        release {
+            storeFile file("../rubbishseparator.keystore")
+            //keystore 文件名，文件放入该module文件夹下
+            storePassword "20001005"        //keystore 密码
+            keyAlias "key0"                //别名
+            keyPassword "20001005"        //别名密码
+        }
+    }
+
+    buildTypes {
+        debug{
+            signingConfig signingConfigs.release
+        }
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+
+}
+
+dependencies {
+
+    implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+
+
+
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    //图片加载
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0'
+    //下拉加载
+    implementation 'jp.wasabeef:glide-transformations:2.0.1'
+    //炫酷按钮
+    implementation 'com.skyfishjy.ripplebackground:library:1.0.1'
+    //google百分比控件
+    //noinspection GradleCompatible
+    implementation 'com.android.support:percent:22.2.0'
+    //加载控件
+    implementation 'com.github.open-android:Loading:1.0'
+    //下拉
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0'
+    //微信分享
+    implementation 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
+    //圆形图片
+    implementation 'com.github.open-android:RoundedImageView:v1.0.0'
+    //二维码
+    implementation 'com.google.zxing:core:3.3.0'
+    implementation 'com.journeyapps:zxing-android-embedded:3.6.0'
+    //图片选择
+    implementation 'com.github.open-android:ImageSelector:0.1.0'
+    //拼图验证
+    implementation 'com.luozm.captcha:captcha:1.1.2'
+
+
+    implementation 'com.squareup.okhttp3:okhttp:4.0.0-RC1'
+    implementation 'com.squareup.okio:okio:1.11.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'org.slf4j:slf4j-api:1.7.25'
+    //压缩算法
+    //图片压缩
+    implementation 'top.zibin:Luban:1.1.3'
+
+}
