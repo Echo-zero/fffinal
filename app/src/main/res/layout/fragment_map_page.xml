@@ -3,4 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.MapPage"/>
+    tools:context=".fragment.MapPage">
+
+    <TextView
+        android:id="@+id/textView_map"
+        android:text="积分商城"
+        android:textColor="@color/background_white"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/teal_200"
+        />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/listview_map"
+        android:divider="#00000000">
+    </ListView>
+
+</FrameLayout>
