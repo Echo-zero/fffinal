@@ -10,7 +10,7 @@
         android:id="@+id/change_head_icon"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/logo"
+        android:src="@drawable/trash"
         android:layout_gravity="center"/>
     <FrameLayout
         android:layout_width="match_parent"
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/stringcolor_black"
         android:padding="5dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="15dp"
         android:textSize="20sp"
         android:background="@drawable/grey_round_edittext"
         android:text="@string/changeHead"

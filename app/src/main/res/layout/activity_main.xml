@@ -48,7 +48,7 @@
                         android:layout_width="35dp"
                         android:layout_height="35dp"
                         android:layout_gravity="center_horizontal"
-                        android:background="@drawable/mainpage"
+                        android:background="@drawable/homepage"
                         tools:ignore="ContentDescription" />
 
                     <TextView
@@ -73,14 +73,14 @@
                         android:layout_width="35dp"
                         android:layout_height="35dp"
                         android:layout_gravity="center_horizontal"
-                        android:background="@drawable/map"
+                        android:background="@drawable/store"
                         tools:ignore="ContentDescription" />
 
                     <TextView
                         android:id="@+id/main_bottom_map_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/map"
+                        android:text="@string/store"
                         android:textColor="@color/stringcolor_grey"
                         android:textSize="15sp" />
                 </LinearLayout>
@@ -98,14 +98,14 @@
                         android:layout_width="35dp"
                         android:layout_height="35dp"
                         android:layout_gravity="center_horizontal"
-                        android:background="@drawable/shop"
+                        android:background="@drawable/quiz2"
                         tools:ignore="ContentDescription" />
 
                     <TextView
                         android:id="@+id/main_bottom_shop_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/shop"
+                        android:text="@string/quiz"
                         android:textColor="@color/stringcolor_grey"
                         android:textSize="15sp" />
                 </LinearLayout>
@@ -123,7 +123,7 @@
                         android:layout_width="35dp"
                         android:layout_height="35dp"
                         android:layout_gravity="center_horizontal"
-                        android:background="@drawable/person"
+                        android:background="@drawable/mine"
                         tools:ignore="ContentDescription" />
 
                     <TextView

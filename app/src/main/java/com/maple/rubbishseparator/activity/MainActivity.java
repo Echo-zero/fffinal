@@ -613,7 +613,7 @@ public class MainActivity extends PermissionActivity implements TextComfirmDialo
     private class LoginReceiver extends BroadcastReceiver {
         @Override
         public void onReceive(Context context, Intent intent) {
-            //检测全县
+            //检测权限
             if (checkPermission()) {
                 Intent intent_tologin = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent_tologin);

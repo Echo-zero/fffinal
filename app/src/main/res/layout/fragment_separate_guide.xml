@@ -24,7 +24,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:scaleType="fitXY"
-            android:src="@drawable/logo"
+            android:src="@drawable/trash"
             app:riv_oval="true"
             tools:ignore="ContentDescription" />
 

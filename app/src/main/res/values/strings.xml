@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">MapleRubbishSeparator</string>
+    <string name="app_name">RubbishSeparator</string>
     <string name="cancel">cancel</string>
     <string name="agree">agree</string>
     <string name="permission_comfirm">permission comfirm</string>
     <string name="require_permission">require permission for better use</string>
-    <string name="Reserved_Maple">All Reserved Maple</string>
+    <string name="Reserved">Provided by the 13 team</string>
     <string name="loading">loading...</string>
     <string name="success">success</string>
     <string name="fail">fail</string>
@@ -12,9 +12,9 @@
     <string name="login_account">turn to person page to login</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="guide">guide</string>
-    <string name="map">map</string>
-    <string name="shop">shop</string>
+    <string name="guide">home</string>
+    <string name="store">store</string>
+    <string name="quiz">quiz</string>
     <string name="person">person</string>
     <string name="touch_to_search">touch to search</string>
     <string name="pulltorefresh">pull to refresh</string>

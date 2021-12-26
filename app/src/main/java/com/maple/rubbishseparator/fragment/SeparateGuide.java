@@ -1,12 +1,8 @@
 package com.maple.rubbishseparator.fragment;
 
 import android.annotation.SuppressLint;
-import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.IntentFilter;
-import android.graphics.Bitmap;
-import android.media.Image;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -25,18 +21,13 @@ import com.android.volley.Request;
 import com.bumptech.glide.Glide;
 import com.itheima.roundedimageview.RoundedImageView;
 import com.maple.rubbishseparator.R;
-import com.maple.rubbishseparator.activity.ChangeHead;
-import com.maple.rubbishseparator.activity.MainActivity;
-import com.maple.rubbishseparator.activity.MapActivity;
 import com.maple.rubbishseparator.activity.QRActivity;
 import com.maple.rubbishseparator.activity.SearchActivity;
 import com.maple.rubbishseparator.adapter.GuidePagerAdapter;
-import com.maple.rubbishseparator.dialog.TextComfirmDialog;
 import com.maple.rubbishseparator.network.HttpHelper;
 import com.maple.rubbishseparator.network.ServerCode;
 import com.maple.rubbishseparator.network.VollySimpleRequest;
 import com.maple.rubbishseparator.util.DepthPagerTransformer;
-import com.maple.rubbishseparator.util.QRCode;
 import com.maple.rubbishseparator.util.ViewControl;
 import com.scwang.smartrefresh.layout.SmartRefreshLayout;
 import com.scwang.smartrefresh.layout.header.ClassicsHeader;

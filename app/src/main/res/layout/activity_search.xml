@@ -61,7 +61,7 @@
                 android:layout_height="40dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:src="@drawable/electronic"
+                android:src="@drawable/ic_electronic"
                 tools:ignore="ContentDescription" />
 
             <TextView
@@ -86,7 +86,7 @@
                 android:layout_height="40dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:src="@drawable/shoes"
+                android:src="@drawable/ic_shoes"
                 tools:ignore="ContentDescription" />
 
             <TextView
@@ -112,7 +112,7 @@
                 android:layout_height="40dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:src="@drawable/clothes"
+                android:src="@drawable/ic_clothes"
                 tools:ignore="ContentDescription" />
 
             <TextView
@@ -138,7 +138,7 @@
                 android:layout_height="40dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:src="@drawable/book"
+                android:src="@drawable/ic_book"
                 tools:ignore="ContentDescription" />
 
             <TextView
@@ -173,7 +173,7 @@
                 android:layout_height="40dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:src="@drawable/makeup"
+                android:src="@drawable/ic_makeup"
                 tools:ignore="ContentDescription" />
 
             <TextView
@@ -199,7 +199,7 @@
                 android:layout_height="40dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:src="@drawable/gift"
+                android:src="@drawable/ic_resource_package"
                 tools:ignore="ContentDescription" />
 
             <TextView
@@ -225,7 +225,7 @@
                 android:layout_height="40dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:src="@drawable/sport"
+                android:src="@drawable/ic_ball"
                 tools:ignore="ContentDescription" />
 
             <TextView
@@ -251,7 +251,7 @@
                 android:layout_height="40dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:src="@drawable/instrument"
+                android:src="@drawable/ic_music"
                 tools:ignore="ContentDescription" />
 
             <TextView
