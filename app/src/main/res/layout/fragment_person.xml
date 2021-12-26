@@ -34,7 +34,7 @@
                     android:layout_width="65dp"
                     android:layout_height="65dp"
                     android:layout_marginStart="10dp"
-                    android:src="@drawable/logo"
+                    android:src="@drawable/trash"
                     app:riv_corner_radius="10dp" />
 
                 <LinearLayout
@@ -84,7 +84,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:scaleType="fitEnd"
-                                android:src="@drawable/logo"
+                                android:src="@drawable/trash"
                                 tools:ignore="ContentDescription" />
                         </com.maple.rubbishseparator.view.PercentLinearLayout>
                     </FrameLayout>
@@ -109,7 +109,7 @@
                 <ImageView
                     android:layout_width="35dp"
                     android:layout_height="35dp"
-                    android:src="@drawable/incomeanalyse" />
+                    android:src="@drawable/ic_order" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -185,7 +185,7 @@
                 <ImageView
                     android:layout_width="35dp"
                     android:layout_height="35dp"
-                    android:src="@drawable/logo" />
+                    android:src="@drawable/trash" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -220,7 +220,7 @@
                 <ImageView
                     android:layout_width="35dp"
                     android:layout_height="35dp"
-                    android:src="@drawable/exit" />
+                    android:src="@drawable/ic_exit" />
 
                 <TextView
                     android:layout_width="wrap_content"

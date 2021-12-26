@@ -75,7 +75,7 @@
                     <ImageView
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/fense" />
+                        android:src="@drawable/ic_order" />
 
                     <EditText
                         android:id="@+id/upload_order_inputname"
@@ -100,7 +100,7 @@
                     <ImageView
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/myreward" />
+                        android:src="@drawable/ic_pay" />
 
                     <EditText
                         android:id="@+id/upload_order_inputprice"

@@ -13,14 +13,13 @@
         android:scaleType="fitCenter"
         app:layout_widthPercent="30%"
         android:layout_gravity="center"
-        android:src="@drawable/logo"/>
+        android:src="@drawable/trash"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:text="@string/Reserved_Maple"
+        android:text="@string/Reserved"
         android:gravity="center"
-        android:layout_marginBottom="2dp"
+        android:layout_marginTop="640dp"
         android:textColor="@color/stringcolor_grey"
         android:textSize="10sp"
         tools:ignore="SmallSp" />
