@@ -11,6 +11,7 @@
     <string name="success">成功</string>
     <string name="fail">失败</string>
     <string name="notice">提示</string>
+    <string name="shopping">积分商城</string>
     <string name="login_account">请在个人页面完成登录</string>
     <string name="guide">主页</string>
     <string name="hello_blank_fragment">空白fragment</string>
